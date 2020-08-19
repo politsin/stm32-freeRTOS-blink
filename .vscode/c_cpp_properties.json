@@ -1,0 +1,59 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "C:/Users/polit/.stm32tools/arm-gcc/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+                "C:/Users/polit/.stm32tools/arm-gcc/arm-none-eabi/include",
+                "C:/Users/polit/.stm32tools/arm-gcc/arm-none-eabi/include/sys/",
+                "C:/Users/polit/.stm32tools/arm-gcc/lib/**",
+                "${workspaceRoot}\\Core\\Src\\**",
+                "${workspaceRoot}\\Core\\Inc\\**",
+                "${workspaceRoot}\\Drivers\\**",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\**",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy\\**",
+                "${workspaceRoot}\\Drivers\\CMSIS\\Include**",
+                "${workspaceRoot}\\Drivers\\CMSIS\\RTOS2\\Include**",
+                "${workspaceRoot}\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include\\**",
+                "${workspaceRoot}\\USB_DEVICE\\App\\**",
+                "${workspaceRoot}\\USB_DEVICE\\Target\\**",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\**",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Inc\\**",
+                "${workspaceRoot}\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include\\**",
+                "${workspaceRoot}\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3\\**",
+                "${workspaceRoot}\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2\\**"
+            ],
+            "forcedInclude": [
+                "${workspaceRoot}\\Drivers\\CMSIS\\RTOS2\\Include\\cmsis_os2.h",
+                "${workspaceRoot}\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include\\stm32f103xb.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_dma.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_pwr.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_exti.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_cortex.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_gpio.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_gpio_ex.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_tim.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_tim_ex.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_rcc.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_rcc_ex.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_flash.h",
+                "${workspaceRoot}\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\stm32f1xx_hal_flash_ex.h",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_core.h",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_ctlreq.h",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Core\\Inc\\usbd_ioreq.h",
+                "${workspaceRoot}\\Middlewares\\ST\\STM32_USB_Device_Library\\Class\\CDC\\Inc\\usbd_cdc.h"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103x8",
+                "M3",
+                "GCC_ARMCM3"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
